@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <children>
+        <ImageView fitHeight="479.0" fitWidth="720.0" layoutX="-12.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@EMS Bg.jpeg" />
+            </image>
+        </ImageView>
+        <Label layoutX="31.0" layoutY="121.0" text="User name :" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="367.0" layoutY="121.0" text="Email id :" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="tuserid" layoutX="154.0" layoutY="116.0" prefHeight="39.0" prefWidth="174.0" promptText="User name" />
+        <TextArea fx:id="temailid" layoutX="490.0" layoutY="116.0" prefHeight="39.0" prefWidth="173.0" promptText="Enter your mail id" />
+        <Label layoutX="252.0" layoutY="38.0" text="TICKET RESERVATION" textFill="WHITE">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="33.0" layoutY="191.0" text="Ticket type :" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="typeid" layoutX="154.0" layoutY="185.0" prefHeight="39.0" prefWidth="176.0" promptText="Enter your ticket type" />
+        <Label layoutX="368.0" layoutY="191.0" text="Event Name :" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="evenameid" layoutX="490.0" layoutY="185.0" prefHeight="39.0" prefWidth="173.0" promptText="Event id" />
+        <Label layoutX="33.0" layoutY="272.0" text="No.of.Ticket :" textFill="WHITE">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+      <Button layoutX="297.0" layoutY="361.0" mnemonicParsing="false" onAction="#gotopayment" prefHeight="26.0" prefWidth="101.0" text="Payment" />
+      <TextArea fx:id="notid" layoutX="153.0" layoutY="266.0" prefHeight="39.0" prefWidth="176.0" promptText="Enter Number of Tickets" />
+      <Label fx:id="tilabel" layoutX="316.0" layoutY="425.0" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

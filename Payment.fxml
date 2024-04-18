@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.PaymentController">
+    <children>
+        <ImageView fitHeight="561.0" fitWidth="839.0" layoutX="-19.0" layoutY="-52.0" pickOnBounds="true" preserveRatio="true" />
+        <ImageView fitHeight="591.0" fitWidth="908.0" layoutX="-19.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@EMS Bg.jpeg" />
+            </image>
+        </ImageView>
+        <Label layoutX="240.0" layoutY="48.0" text=" MAKE YOUR PAYMENT" textFill="#fffefe">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="58.0" fitWidth="83.0" layoutX="637.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@GPAY.PNG" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="68.0" fitWidth="83.0" layoutX="764.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PAYTM.PNG" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="68.0" fitWidth="86.0" layoutX="643.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@PHONEPAY.PNG" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="68.0" fitWidth="86.0" layoutX="709.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@VISA.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="50.0" fitWidth="113.0" layoutX="750.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Mastercard-1200x600.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="68.0" fitWidth="95.0" layoutX="729.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@paypal.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="28.0" layoutY="137.0" text="Name :" textFill="WHITE">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="pname" layoutX="240.0" layoutY="135.0" prefHeight="40.0" prefWidth="285.0" />
+        <Label layoutX="23.0" layoutY="211.0" prefHeight="35.0" prefWidth="187.0" text="Amount  :" textFill="#faf4f4">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="amountid" layoutX="239.0" layoutY="209.0" prefHeight="40.0" prefWidth="286.0" />
+        <Label layoutX="27.0" layoutY="278.0" text="Account number :" textFill="#e1e0e0">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="accid" layoutX="239.0" layoutY="276.0" prefHeight="40.0" prefWidth="286.0" />
+        <Label layoutX="23.0" layoutY="349.0" text="Transaction type :" textFill="#cfcccc">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="tranid" layoutX="239.0" layoutY="349.0" prefHeight="40.0" prefWidth="286.0" />
+        <Button layoutX="350.0" layoutY="435.0" mnemonicParsing="false" onAction="#gotothankyou" prefHeight="40.0" prefWidth="114.0" text="PAY" />
+      <Label fx:id="plabel" layoutX="318.0" layoutY="517.0" prefHeight="18.0" prefWidth="49.0" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

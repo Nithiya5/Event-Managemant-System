@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="438.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="729.0" layoutX="-25.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@EMS Bg.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="251.0" layoutY="38.0" text="REGISTRATION" textFill="#faf4f4">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="102.0" text="Username :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="uid" layoutX="141.0" layoutY="97.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter user name" />
+      <Label layoutX="19.0" layoutY="175.0" text="Email id :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="cityid" layoutX="470.0" layoutY="96.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter city" />
+      <Label layoutX="19.0" layoutY="253.0" text="Event :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="363.0" layoutY="102.0" text="City :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="IDemail" layoutX="141.0" layoutY="169.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter email id" />
+      <Button layoutX="470.0" layoutY="330.0" mnemonicParsing="false" onAction="#gototicket" text="REGISTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="363.0" layoutY="175.0" text="Ph number :" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="phid" layoutX="470.0" layoutY="177.0" prefHeight="26.0" prefWidth="198.0" promptText="Contact number" />
+      <TextArea fx:id="eveid" layoutX="141.0" layoutY="253.0" prefHeight="25.0" prefWidth="200.0" promptText="Enter Event name" />
+      <Label fx:id="rlabel" layoutX="322.0" layoutY="407.0" textFill="WHITE" />
+   </children>
+</AnchorPane>

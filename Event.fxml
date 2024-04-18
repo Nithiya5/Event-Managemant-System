@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="545.0" prefWidth="639.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <ImageView fitHeight="561.0" fitWidth="839.0" layoutX="-23.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@EMS Bg.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="72.0" layoutY="27.0" text="ALL EVENTS" textFill="#f4ecec">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="36.0" text="FEATURES" textFill="#fffbfb" />
+      <Label layoutX="633.0" layoutY="36.0" text="BLOG" textFill="#f7f2f2" />
+      <Label layoutX="710.0" layoutY="35.0" text="CONTACT" textFill="#ece6e6" />
+      <Label layoutX="425.0" layoutY="35.0" text="HOME" textFill="#f4f0f0" />
+      <ImageView fitHeight="315.0" fitWidth="187.0" layoutX="27.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@EMS Event.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="314.0" fitWidth="200.0" layoutX="229.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@EMS Event 2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="314.0" fitWidth="200.0" layoutX="423.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@event 4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="314.0" fitWidth="200.0" layoutX="615.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@event 3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="87.0" layoutY="493.0" text="Label" />
+      <Button layoutX="270.0" layoutY="450.0" mnemonicParsing="false" onAction="#gotoregister" prefHeight="33.0" prefWidth="89.0" text="REGISTER" />
+      <Button layoutX="72.0" layoutY="450.0" mnemonicParsing="false" onAction="#gotoregister" prefHeight="32.0" prefWidth="86.0" text="REGISTER" />
+      <Label layoutX="582.0" layoutY="114.0" text="Label" />
+      <Button layoutX="466.0" layoutY="451.0" mnemonicParsing="false" onAction="#gotoregister" prefHeight="32.0" prefWidth="86.0" text="REGISTER" />
+      <Button layoutX="657.0" layoutY="451.0" mnemonicParsing="false" onAction="#gotoregister" prefHeight="32.0" prefWidth="86.0" text="REGISTER" />
+   </children>
+</AnchorPane>

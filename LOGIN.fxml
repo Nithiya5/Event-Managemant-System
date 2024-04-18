@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="445.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+
+    <ImageView fitHeight="479.0" fitWidth="720.0" layoutX="-8.0" pickOnBounds="true" preserveRatio="true">
+        <image>
+            <Image url="@EMS Bg.jpeg" />
+        </image>
+    </ImageView>
+
+    <Label layoutX="282.0" layoutY="51.0" text="LOGIN" textFill="WHITE">
+        <font>
+            <Font size="25.0" />
+        </font>
+    </Label>
+
+    <Label fx:id="user" layoutX="109.0" layoutY="161.0" text="Username :" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+
+    <Label layoutX="107.0" layoutY="250.0" text="Password :" textFill="WHITE">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+
+    <TextField fx:id="usernameField" layoutX="243.0" layoutY="155.0" prefHeight="31.0" prefWidth="250.0" promptText="Enter Username " />
+
+    <PasswordField fx:id="passwordField" layoutX="243.0" layoutY="251.0" prefHeight="34.0" prefWidth="252.0" promptText="Enter Password" />
+
+    <Button layoutX="278.0" layoutY="345.0" mnemonicParsing="false" onAction="#gotoevent" text="LOGIN">
+        <font>
+            <Font size="19.0" />
+        </font>
+    </Button>
+   <Label fx:id="label1id" layoutX="243.0" layoutY="415.0" prefHeight="18.0" prefWidth="177.0" textFill="WHITE" />
+
+</AnchorPane>
